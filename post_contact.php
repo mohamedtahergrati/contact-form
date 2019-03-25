@@ -15,8 +15,8 @@ $mail->SMTPAuth = true; // on l’informe que ce SMTP nécessite une autentifica
 $mail->SMTPSecure = 'tls'; // protocole utilisé pour sécuriser les mails 'ssl' ou 'tls'
 $mail->Host = "smtp.gmail.com"; // définition de l’adresse du serveur SMTP : 25 en local, 465 pour ssl et 587 pour tls
 $mail->Port = 587; // définition du port du serveur SMTP
-$mail->Username = "mohamedtahergrati@gmail.com"; // le nom d’utilisateur SMTP
-$mail->Password = "mohamed20388217"; // son mot de passe SMTP
+$mail->Username = "xxxx@gmail.com"; // le nom d’utilisateur SMTP
+$mail->Password = "xxxx"; // son mot de passe SMTP
 
 
 $errors = [];
