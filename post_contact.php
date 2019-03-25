@@ -20,7 +20,7 @@ $mail->Password = "xxxx"; // son mot de passe SMTP
 
 
 $errors = [];
-$emails = ['mohamedtahergrati@yahoo.fr','mohamedtahergrati@gmail.com','mohamed@yahoo.fr'];
+
 
 if(!array_key_exists('name', $_POST) || $_POST['name'] == ''){
     $errors['name'] = "Vous n'avez pas renseigné votre nom";
